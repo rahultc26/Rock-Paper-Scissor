@@ -6,7 +6,8 @@ class FeedBack:
 
     def __init__(self,master):
         
-        master.title('Explore Karnataka Feedback')
+        master.title('RPS Feedback')
+        master.wm_iconbitmap('rpsico.ico')
         master.resizable(False,False)
         master.configure(background = '#D6A2E8')
 
