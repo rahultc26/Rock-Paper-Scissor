@@ -78,5 +78,9 @@ button2.grid(column=0,row=2)
 
 button3 = tk.Button(text="       Scissor    ",bg="lightgreen",command=scissor)
 button3.grid(column=0,row=3)
+
+button4 = tk.Button(text = "FeedBack" ,bg = "red",command = feedback)
+button4.grid(column=0,row=8,)
+
 window.mainloop()
     
