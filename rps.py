@@ -2,6 +2,8 @@ import random
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
+from subprocess import call
+
 window = tk.Tk()
 window.geometry('400x550')
 window.title('Rock Paper Scissor')
