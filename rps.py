@@ -7,6 +7,8 @@ from subprocess import call
 window = tk.Tk()
 window.geometry('400x550')
 window.title('Rock Paper Scissor')
+window.wm_iconbitmap('rpsico.ico')
+
 USER_SCORE = 0
 COMP_SCORE = 0
 USER_CHOICE = ''
