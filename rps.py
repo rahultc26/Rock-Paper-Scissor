@@ -58,12 +58,11 @@ def scissor():
     COMP_CHOICE = random_computer_choice()
     result(USER_CHOICE,COMP_CHOICE)
 
-#label = ttk.Label(window,text = 'Rock Paper Scissor')
-#logo = PhotoImage(file = "C:\\Users\\HP\\Desktop\\rps.gif")
-#label.config(image=logo)
+def feedback():
+    call(['python','feedback.py'])
+    
 image=PhotoImage(file = 'rps.gif')
-#image.thumbnail((300,300),Image.ANTIALIAS)
-#photo=ImageTk.PhotoImage(image)
+
 label_image=tk.Label(image=image)
 label_image.grid(column=0,row=0)
 
